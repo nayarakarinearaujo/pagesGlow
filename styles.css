@@ -108,7 +108,8 @@ nav ul li a:hover {
 .service-item {
   margin: 20px;
   display: inline-block;
-  width: 30%;
+  width: 40%;
+  height: 180px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   background-color: #ffffff;
