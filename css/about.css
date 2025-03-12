@@ -1,0 +1,53 @@
+/* * Seção Quem Somos */
+
+.about {
+    padding: 60px 20px;
+    background: url("../img/img/image-about.jpg") center/cover no-repeat;
+    background-attachment: fixed; /* Efeito parallax (opcional) */
+    text-align: center;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    position: relative;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about strong {
+    font-weight: bold;
+    color: #00bcd4;
+  }
+  
+  /* Responsividade */
+  @media (min-width: 768px) {
+    .about-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .about-texto {
+      width: 45%;
+      text-align: left;
+    }
+  
+    .about-imagem {
+      width: 45%;
+    }
+  }
+  
