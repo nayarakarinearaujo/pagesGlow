@@ -33,8 +33,8 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#servicos">Serviços</a></li>
           <li><a href="#portfolio">Portfólio</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
       </nav>
     </header>
@@ -42,7 +42,7 @@
     <!-- Banner Principal -->
     <section id="home" class="banner">
       <h1>Transformando suas ideias em sites incríveis</h1>
-      <a href="#contato" class="cta-button">Solicite seu Orçamento</a>
+      <a href="#contact" class="cta-button">Solicite seu Orçamento</a>
     </section>
 
     <!-- Seção de Serviços -->
@@ -164,10 +164,11 @@
     <section id="contact" class="contact">
       <h2>Entre em Contato</h2>
       <form>
-        <input type="text" placeholder="Nome" required />
-        <input type="email" placeholder="E-mail" required />
-        <textarea placeholder="Mensagem" required></textarea>
-        <button type="submit">Enviar</button>
+        <input type="text" placeholder="Nome" id="inName" required />
+        <input type="email" placeholder="E-mail" id="inEmail" required />
+        <textarea placeholder="Mensagem" id="inMsg" required></textarea>
+        <button id="btnSend" type="submit">Enviar</button>
+         <p id="msgFeedback"></p>
       </form>
     </section>
 
