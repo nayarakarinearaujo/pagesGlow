@@ -38,10 +38,10 @@
   .service-item {
     margin: 20px;
     display: flex;
-    flex-direction: column; /* Para manter os textos verticais */
-    justify-content: center; /* Alinha o conteúdo verticalmente */
-    align-items: center; /* Alinha o conteúdo horizontalmente */
-    text-align: center; /* Centraliza o texto dentro de cada item */
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
     width: 300px;
     height: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
