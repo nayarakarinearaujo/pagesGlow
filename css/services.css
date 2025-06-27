@@ -9,25 +9,6 @@
     justify-content: space-around; /* Espalha os itens com espaço igual entre eles */
   }
   
-  .servicos h2,
-  .portfolio h2,
-  .about h2 {
-    font-size: 2.8em;
-    color: #00bcd4;
-    margin-bottom: 30px;
-    font-family: "Archivo Black", sans-serif;
-  }
-  
-  /* Serviços */
-  .servicos {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-  }
-  
   .servicos h2 {
     font-size: 2.8em;
     color: #00bcd4;
@@ -50,6 +31,7 @@
     padding: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
+  
   .service-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);

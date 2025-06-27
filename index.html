@@ -1,33 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Metadados do documento -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pages Glow - Criação de Sites</title>
+    
+    <!-- Link para o arquivo de estilos -->
     <link rel="stylesheet" href="css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      ...
-    />
+    
+    <!-- Biblioteca de ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-    <link
-      rel="shortcut icon"
-      href="img/imgLogo/logo-circular.png"
-      type="image/x-icon"
-    />
-    <meta
-      name="description"
-      content="Pages Glow - Especialistas em criação de sites modernos e responsivos, oferecendo soluções personalizadas para sua empresa."
-    />
-    <meta
-      name="keywords"
-      content="criação de sites, design web, desenvolvimento web, consultoria digital"
-    />
+    <!-- Ícone da aba do navegador -->
+    <link rel="shortcut icon" href="img/imgLogo/logo-circular.png" type="image/x-icon" />
+
+    <!-- SEO: descrição, palavras-chave e autor -->
+    <meta name="description" content="Pages Glow - Especialistas em criação de sites modernos e responsivos, oferecendo soluções personalizadas para sua empresa." />
+    <meta name="keywords" content="criação de sites, design web, desenvolvimento web, consultoria digital" />
     <meta name="author" content="Pages Glow" />
   </head>
   <body>
-    <!-- Cabeçalho -->
+    <!-- Cabeçalho com logo e menu de navegação -->
     <header>
       <div class="logo">
         <img src="img/imgLogo/logo-circular.png" alt="" />
@@ -43,13 +37,13 @@
       </nav>
     </header>
 
-    <!-- Banner Principal -->
+    <!-- Banner principal com chamada de ação -->
     <section id="home" class="banner">
       <h1>Transformando suas ideias em sites incríveis</h1>
       <a href="#contact" class="cta-button">Solicite seu Orçamento</a>
     </section>
 
-    <!-- Seção de Serviços -->
+    <!-- Seção de serviços oferecidos -->
     <section id="servicos" class="servicos">
       <h2>O que fazemos</h2>
       <div class="service-items-container">
@@ -67,104 +61,71 @@
         </div>
         <div class="service-item">
           <h3>Sites para Bio do Instagram</h3>
-          <p>
-            Criação de páginas compactas e elegantes para destacar seus links e
-            serviços no Instagram.
-          </p>
+          <p>Criação de páginas compactas para destacar links e serviços.</p>
         </div>
       </div>
     </section>
 
-    <!-- Portfólio -->
+    <!-- Portfólio de projetos -->
     <section id="portfolio" class="portfolio">
       <h2>Nosso Portfólio</h2>
       <div class="carousel">
+        <!-- Projetos do portfólio -->
         <div class="carousel-project">
           <div class="project-item">
-            <a
-              href="https://www.gjpiscinaesaude.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="img/imgWork/Front-piscineiro.png"
-                alt="Site GJ Piscina e Saúde"
-              />
+            <a href="https://www.gjpiscinaesaude.com.br/" target="_blank" rel="noopener noreferrer">
+              <img src="img/imgWork/Front-piscineiro.png" alt="Site GJ Piscina e Saúde" />
               <p><i class="fa-solid fa-link"></i> GJ Piscina e Saúde</p>
             </a>
           </div>
+          <!-- Outros projetos -->
           <div class="project-item">
-            <a
-              href="https://nayarakarine.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="img/imgWork/nayarakarine.com_s.png" alt="Projeto 2" />
+            <a href="https://nayarakarine.com/" target="_blank" rel="noopener noreferrer">
+              <img src="img/imgWork/nayarakarine.com_s.png" alt="Portfólio" />
               <p><i class="fa-solid fa-link"></i>Portfólio</p>
             </a>
           </div>
           <div class="project-item">
-            <a
-              href="https://itamarmaquinas.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="img/imgWork/itamarMaquinas.png" alt="Projeto 2" />
+            <a href="https://itamarmaquinas.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <img src="img/imgWork/itamarMaquinas.png" alt="Itamar Máquinas" />
               <p><i class="fa-solid fa-link"></i>Itamar Máquinas</p>
             </a>
           </div>
           <div class="project-item">
-            <a
-              href="https://tedeschiveiculos.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="img/imgWork/tedeschiveiculos.vercel.app_.png"
-                alt="Projeto 2"
-              />
+            <a href="https://tedeschiveiculos.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <img src="img/imgWork/tedeschiveiculos.vercel.app_.png" alt="Tedeschi Veículos" />
               <p><i class="fa-solid fa-link"></i>Tedeschi Veículos</p>
             </a>
           </div>
           <div class="project-item">
-            <a
-              href="https://nayara-karine.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://nayara-karine.vercel.app/" target="_blank" rel="noopener noreferrer">
               <img src="img/imgWork/siteBio.png" alt="Site Bio Instagram" />
               <p><i class="fa-solid fa-link"></i>Bio para Instagram</p>
             </a>
           </div>
         </div>
+
+        <!-- Botões do carrossel -->
         <div class="carousel-btns">
-          <button class="carousel-btn prev" onclick="projectSlide(-1)">
-            &#10094;
-          </button>
-          <button class="carousel-btn next" onclick="projectSlide(1)">
-            &#10095;
-          </button>
+          <button class="carousel-btn prev" onclick="projectSlide(-1)">&#10094;</button>
+          <button class="carousel-btn next" onclick="projectSlide(1)">&#10095;</button>
         </div>
       </div>
     </section>
 
-    <!-- Seção Sobre -->
+    <!-- Seção sobre a empresa -->
     <section id="about" class="about">
       <div class="about-container">
         <div class="about-texto">
           <h2>Quem Somos</h2>
           <p>
-            Na <strong>Pages Glow</strong>, somos apaixonados por transformar
-            ideias em experiências digitais. Como especialistas na criação de
-            sites modernos e responsivos, nosso foco é proporcionar a melhor
-            experiência para o usuário, garantindo soluções personalizadas que
-            atendem às necessidades de cada cliente.
+            Na <strong>Pages Glow</strong>, somos apaixonados por transformar ideias em experiências digitais.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- Contato -->
+    <!-- Formulário de contato -->
     <section id="contact" class="contact">
       <h2>Entre em Contato</h2>
       <form>
@@ -181,6 +142,7 @@
       <p>&copy; 2025 Pages Glow - Todos os direitos reservados</p>
     </footer>
 
+    <!-- Script de funcionalidades -->
     <script src="script.js"></script>
   </body>
 </html>
