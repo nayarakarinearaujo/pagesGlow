@@ -21,24 +21,29 @@ function projectSlide(direction) {
 }
 
 function sendForm() {
+  //Selecionando os campos do form
   const inName = document.getElementById("inName");
   const inEmail = document.getElementById("inEmail");
   const inMsg = document.getElementById("inMsg");
   const msgFeedback = document.getElementById("msgFeedback");
 
+  //Pegando valores digitados nos campos do form
   const name = inName.value.trim();
   const email = inEmail.value.trim();
   const msg = inMsg.value.trim();
 
+  //Avaliando se os campos estão vazios
   if (!name || !email || !msg) {
     alert("Por favor, preencha todos os campos!");
     inName.focus();
     return;
   }
 
+  //Montando mensagem de feedback do formulário
   msgFeedback.textContent = "Mensagem enviada com Sucesso!";
   msgFeedback.classList.add("visible");
 
+  //Temporizador para emnsagem de feedbeck
   setTimeout(() => {
     msgFeedback.classList.remove("visible");
   }, 2000);
@@ -49,5 +54,6 @@ function sendForm() {
   inMsg.value = "";
 }
 
+//Adicionando a função ao botão de enviar
 const btnSend = document.getElementById("btnSend");
 btnSend.addEventListener("click", sendForm);
